@@ -24,26 +24,6 @@
             android:fragment="com.teamone.OneCustoms.fragments.StatusBarSettings" 
             android:icon="@drawable/ic_settings_statusbar"/>
 
-        <!-- Quick Settings panel -->
-        <PreferenceScreen
-            android:key="quicksettings_category"
-            android:title="@string/quicksettings_title"
-            android:fragment="com.teamone.OneCustoms.fragments.QuickSettings"
-            android:icon="@drawable/ic_settings_quicksettings"/>
-
-        <!-- Buttons -->
-        <PreferenceScreen
-            android:key="buttonsettings_category"
-            android:title="@string/button_title"
-            android:fragment="com.teamone.OneCustoms.fragments.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"/>
-
-        <!-- Navigation Bar -->
-        <PreferenceScreen
-            android:key="navigationbar_category"
-            android:title="@string/navbar_title" 
-            android:fragment="com.teamone.OneCustoms.fragments.NavbarSettings"
-            android:icon="@drawable/ic_settings_navbar"/>
 
         <!-- Gestures -->
         <PreferenceScreen
@@ -52,39 +32,11 @@
             android:fragment="com.teamone.OneCustoms.fragments.GestureSettings"
             android:icon="@drawable/ic_settings_gestures"/>
 
-        <!-- Lock Screen -->
-        <PreferenceScreen
-            android:key="lockscreen_category"
-            android:title="@string/lockscreen_title" 
-            android:fragment="com.teamone.OneCustoms.fragments.LockScreenSettings"
-            android:icon="@drawable/ic_settings_lockscreens"/>
-
-        <!-- Power Menu -->
-        <PreferenceScreen
-            android:key="powermenu__category"
-            android:title="@string/powermenu_title" 
-            android:fragment="com.teamone.OneCustoms.fragments.PowerMenuSettings"
-            android:icon="@drawable/ic_settings_powermenu"/>
-
-        <!-- Recents -->
-        <PreferenceScreen
-            android:key="recents_category"
-            android:title="@string/recents_title"
-            android:fragment="com.teamone.OneCustoms.fragments.RecentsSettings"
-            android:icon="@drawable/ic_settings_recents"/>
-
-        <!-- Notifications -->
-        <PreferenceScreen
-            android:key="notifications_category"
-            android:title="@string/notifications_title"
-            android:fragment="com.teamone.OneCustoms.fragments.NotificationSettings"
-            android:icon="@drawable/ic_settings_notifications"/>
-
-        <!-- Misc -->
-        <PreferenceScreen
-            android:key="misc_category"
-            android:title="@string/misc_title" 
-            android:fragment="com.teamone.OneCustoms.fragments.MiscSettings"
-            android:icon="@drawable/ic_settings_miscs"/>
+       <!-- About -->
+       <PreferenceScreen
+            android:key="about_category"
+            android:title="@string/about_title"
+            android:fragment="com.teamone.OneCustoms.fragments.About" 
+            android:icon="@drawable/ic_settings_about"/>
 
 </PreferenceScreen>

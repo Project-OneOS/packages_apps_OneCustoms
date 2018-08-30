@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The OneOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="one_settings_title">Additional Settings</string>
+
+    <!-- Categories -->
+    <string name="gestures_title">Gestures</string>
+    <string name="misc_title">Miscellaneous</string>
+    <string name="statusbar_title">Status bar</string>
+    <string name="about_title">About</string>
+ 
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Network traffic</string>
+    <string name="network_traffic_state_summary">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
+
+    <string name="torch_long_press_power_gesture_desc">Long press power button while the screen is off to turn on the flashlight</string>
+    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
+    <string name="torch_long_press_power_timeout_never">Never</string>
+    <string name="torch_long_press_power_timeout_1min">1 minute</string>
+    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
+    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
+    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+
+    <!-- About -->
+    <string name="developers_category_title">Developers</string>
+    <string name="support_category_title">Support Team</string>
+    <string name="one_developers_ipsbhangu" translatable="false">• Co-Founder \n• Core Developer \n• UI/UX Designer\n• Maintainer</string>
+    <string name="one_developers_androiabledroid" translatable="false">• Founder \n• Core Developer\n• Maintainer</string>
+    <string name="one_support_gautam" translatable="false">• The One who's Effort made this! </string>
+    <string name="one_support_gautam" translatable="false">• Team's Inspiration </string>
+    <string name="one_support_prathamesh" translatable="false">• Feature Hungry</string>
+    <string name="one_support_kb" translatable="false">• Support Group Moderator</string>
+    <string name="one_links">Links</string>
+    <string name="one_announcements_title">Announcements</string>
+    <string name="one_announcements_summary">Official announcements channel</string>
+    <string name="one_telegram_title">Telegram</string>
+    <string name="one_telegram_summary">Support group for Official builds</string>
+    <string name="website_title">Website</string>
+    <string name="website_title_summary">Download OneOS for your device</string>
+    <string name="one_source_title">Github</string>
+    <string name="one_source_summary">OneOS source code</string>
+
+</resources>

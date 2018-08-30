@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 One-OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/about_title" >
+
+    <PreferenceCategory
+        android:key="developer_category"
+        android:title="@string/developers_category_title">
+
+        <Preference
+            android:title="Inderpreet Singh Bhangu (IPSBHANGU)"
+            android:summary="@string/one_developers_ipsbhangu"
+            android:icon="@drawable/one_developer">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/inderpreetsinghb"/>
+        </Preference>
+
+        <Preference
+            android:title="Mohd Faraz (AndroiableDroid)"
+            android:summary="@string/one_developers_androiabledroid"
+            android:icon="@drawable/one_developer">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/androiabledroid"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="support_category" 
+        android:title="@string/support_category_title"> 
+
+        <Preference
+            android:title="Ashley David (Ashpd)"
+            android:summary="@string/one_support_ashley"
+            android:icon="@drawable/one_support">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Ashleydavid"/>
+
+        </Preference>
+
+        <Preference
+            android:title="Gautam Maini (mainigautam)"
+            android:summary="@string/one_support_gautam"
+            android:icon="@drawable/one_support">
+	    <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/mainigautam"/>
+
+        </Preference>
+
+        <Preference
+            android:title="Prathamesh Dhawale (prathameshdhawale)"
+            android:summary="@string/one_support_prathamesh"
+            android:icon="@drawable/one_support">
+	    <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/prathameshdhawale"/>
+
+  	 </Preference>
+
+         <Preference
+            android:title="Kartesh Bicholkar (kb)"
+            android:summary="@string/one_support_kb"
+            android:icon="@drawable/one_support">
+	</Preference>
+        
+   </PreferenceCategory>
+
+		
+    <PreferenceCategory
+        android:key="links"
+        android:title="@string/one_links">
+
+        <Preference
+            android:key="one_announcements"
+            android:title="@string/one_announcements_title"
+            android:summary="@string/one_announcements_summary"
+            android:icon="@drawable/one_announcements">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/LS5015"/>
+        </Preference>
+
+        <Preference
+            android:key="one_telegram"
+            android:title="@string/one_telegram_title"
+            android:summary="@string/one_telegram_summary"
+            android:icon="@drawable/one_telegram">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/LYF_LS5015"/>
+        </Preference>
+
+        <!--<Preference
+            android:key="changelog"
+            android:title="@string/changelog_title"
+            android:summary="@string/changelog_title_summary"
+            android:icon="@drawable/havoc_changelog"
+            android:fragment="com.android.settings.havoc.Changelog">
+        </Preference>-->
+
+        <Preference
+            android:key="one_website"
+            android:title="@string/website_title"
+            android:summary="@string/website_title_summary"
+            android:icon="@drawable/one_website">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://sourceforge.net/projects/romz-for-ls-5015/"/>
+        </Preference>
+
+        <Preference
+            android:key="one_source"
+            android:title="@string/one_source_title"
+            android:summary="@string/one_source_summary"
+            android:icon="@drawable/one_github">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/AOSP-CAF-PROJECT"/>
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>
