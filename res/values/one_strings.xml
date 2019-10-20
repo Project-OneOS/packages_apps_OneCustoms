@@ -27,6 +27,12 @@
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
 
+    <!-- Statusbar net monitor -->
+    <string name="statusbar_ntraffic">Network</string>
+    <string name="network_traffic_state_title">Network traffic</string>
+    <string name="network_traffic_state_summary">Show the network activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
+
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">Screen off FOD</string>
     <string name="screen_off_fod_summary">Use fingerprint reader also when the screen is off</string>
