@@ -29,6 +29,8 @@
     <!-- Brightness Slider(TODO- Make new menu for UI-tunning) -->
     <string name="brightness_slider_qs_unexpanded">New Brightness slider (beta)</string>
     <string name="brightness_slider_qs_unexpanded_summary">Shows brightness slider below qs panel</string>
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
+    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
 
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Gaming Mode</string>
