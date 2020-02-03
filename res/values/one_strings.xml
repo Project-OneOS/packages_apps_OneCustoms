@@ -26,6 +26,10 @@
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
 
+    <!-- Brightness Slider(TODO- Make new menu for UI-tunning) -->
+    <string name="brightness_slider_qs_unexpanded">New Brightness slider (beta)</string>
+    <string name="brightness_slider_qs_unexpanded_summary">Shows brightness slider below qs panel</string>
+
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Gaming Mode</string>
     <string name="gaming_mode_summary">Customize gaming mode preferences</string>
