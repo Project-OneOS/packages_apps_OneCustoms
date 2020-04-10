@@ -57,4 +57,11 @@
                  android:targetClass="com.one.device.DeviceSettings"/>
         </Preference>
 
+       <!-- LockScreen -->
+	 <Preference
+            android:key="lockscreen_category"
+            android:title="@string/lockscreen_title" 
+            android:fragment="com.teamone.OneCustoms.fragments.LockScreen"
+            android:icon="@drawable/ic_settings_lockscreen"/>
+
 </PreferenceScreen>

@@ -20,12 +20,17 @@
     <string name="statusbar_title">Status bar</string>
     <string name="about_title">About</string>
     <string name="device_part_title">Device Settings</string>
+    <string name="lockscreen_title">Lock Screen</string>
  
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
+
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Screen off FOD</string>
+    <string name="screen_off_fod_summary">Use fingerprint reader also when the screen is off</string>
 
     <!-- Brightness Slider(TODO- Make new menu for UI-tunning) -->
     <string name="brightness_slider_qs_unexpanded">New Brightness slider (beta)</string>
