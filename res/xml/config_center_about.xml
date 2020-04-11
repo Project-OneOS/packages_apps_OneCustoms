@@ -53,17 +53,7 @@
 
         </Preference>
 
-        <Preference
-            android:title="Gautam Maini (mainigautam)"
-            android:summary="@string/one_support_gautam"
-            android:icon="@drawable/one_support">
-	    <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://github.com/mainigautam"/>
-
-        </Preference>
-
-        <Preference
+       <Preference
             android:title="Prathamesh Dhawale (prathameshdhawale)"
             android:summary="@string/one_support_prathamesh"
             android:icon="@drawable/one_support">
@@ -73,14 +63,44 @@
 
   	 </Preference>
 
+	<Preference
+            android:title="Abuzar Shaheen"
+            android:summary="@string/one_support_abuzar"
+            android:icon="@drawable/one_support">
+	    <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/AbShaheen184"/>
+
+  	 </Preference>
+
+	</PreferenceCategory>
+      
+        <PreferenceCategory
+        	android:key="support_category" 
+        	android:title="@string/support_category_title"> 
+
          <Preference
-            android:title="Kartesh Bicholkar (kb)"
-            android:summary="@string/one_support_kb"
+            android:title="Hunter(The Hunter)"
+            android:summary="@string/support_category_title"
+            android:icon="@drawable/one_support">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/TheHunter08"/>
+	</Preference>
+
+	<Preference
+            android:title="Jay Perisho(Tattoorepairman)"
+            android:summary="@string/support_category_title"
             android:icon="@drawable/one_support">
 	</Preference>
-        
-   </PreferenceCategory>
+  
+        <Preference
+            android:title="Travis Holt(Travisholt92)"
+            android:summary="@string/support_category_title"
+            android:icon="@drawable/one_support">
+	</Preference>
 
+    </PreferenceCategory>
 		
     <PreferenceCategory
         android:key="links"
