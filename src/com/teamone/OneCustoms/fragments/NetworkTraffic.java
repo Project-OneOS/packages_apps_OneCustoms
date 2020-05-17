@@ -24,6 +24,7 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements
 
     private SystemSettingListPreference mLocation;
     private CustomSeekBarPreference mThreshold;
+    private CustomSeekBarPreference mInterval;
 
     private TextView mTextView;
     private View mSwitchBar;
@@ -35,6 +36,7 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements
 
         mLocation = (SystemSettingListPreference) findPreference("network_traffic_location");
         mThreshold = (CustomSeekBarPreference) findPreference("network_traffic_autohide_threshold");
+        mInterval = (CustomSettingSeekBarPreference) findPreference("network_traffic_refresh_interval");
     }
 
     @Override
@@ -68,6 +70,7 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements
 
         mLocation.setEnabled(enabled);
         mThreshold.setEnabled(enabled);
+        mInterval.setEnabled(enabled);
     }
 
     @Override
@@ -79,6 +82,7 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements
 
         mLocation.setEnabled(isChecked);
         mThreshold.setEnabled(isChecked);
+        mInterval.setEnabled(isChecked);
     }
 
     @Override
