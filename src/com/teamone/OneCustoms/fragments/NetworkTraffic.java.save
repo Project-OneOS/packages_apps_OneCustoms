@@ -36,9 +36,14 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.network_traffic);
 
         mLocation = (SystemSettingListPreference) findPreference("network_traffic_location");
-        mIndicatorMode = (SystemSettingListPreference) findPreference("network_traffic_mode");
+<<<<<<< HEAD:src/com/teamone/OneCustoms/fragments/NetworkTraffic.java
         mThreshold = (CustomSeekBarPreference) findPreference("network_traffic_autohide_threshold");
-        mInterval = (CustomSeekBarPreference) findPreference("network_traffic_refresh_interval");
+        mInterval = (CustomSettingSeekBarPreference) findPreference("network_traffic_refresh_interval");
+=======
+        mIndicatorMode = (SystemSettingListPreference) findPreference("network_traffic_mode");
+        mThreshold = (SystemSettingSeekBarPreference) findPreference("network_traffic_autohide_threshold");
+        mInterval = (SystemSettingSeekBarPreference) findPreference("network_traffic_refresh_interval");
+>>>>>>> 6ce9851... ConfigCenter: Network Traffic: Allow to choose display mode [1/2]:src/com/havoc/config/center/fragments/NetworkTraffic.java
     }
 
     @Override
