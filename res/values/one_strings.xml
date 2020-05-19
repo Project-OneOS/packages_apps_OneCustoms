@@ -33,11 +33,6 @@
     <string name="screen_off_fod_summary">Use fingerprint reader also when the screen is off</string>
     <string name="screen_off_fod_icon_title">Show icon</string>
     <string name="screen_off_fod_icon_summary">Show fingerprint icon when the screen is off</string>
-   
-    <!-- FOD icon picker -->
-    <string name="fod_icon_picker_title">FOD icon picker</string>
-    <string name="fod_icon_picker_summary">Pick your favourite fingerprint icon</string>
-    <string name="fod_icon_picker_footer">In order to add your own icon, select the top left icon and use the OnePlus 6T FP Customizer app to select the icon you want.</string>
 
     <!-- Brightness Slider(TODO- Make new menu for UI-tunning) -->
     <string name="brightness_slider_qs_unexpanded">New Brightness slider (beta)</string>
