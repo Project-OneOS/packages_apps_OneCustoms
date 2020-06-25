@@ -19,7 +19,6 @@
     <string name="misc_title">Miscellaneous</string>
     <string name="statusbar_title">Status bar</string>
     <string name="about_title">About</string>
-    <string name="device_part_title">Device Settings</string>
     <string name="lockscreen_title">Lock Screen</string>
  
     <!-- General strings -->
