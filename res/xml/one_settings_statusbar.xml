@@ -18,26 +18,19 @@
     android:title="@string/statusbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceCategory
+   <PreferenceCategory
         android:key="statusbar_ntraffic"
         android:title="@string/statusbar_ntraffic">
 
         <com.teamone.OneCustoms.preferences.SystemSettingSwitchPreference
             android:key="network_traffic_state"
+            android:fragment="com.teamone.OneCustoms.fragments.NetworkTraffic"
             android:title="@string/network_traffic_state_title"
             android:summary="@string/network_traffic_state_summary"
             android:defaultValue="false" />
 
-        <com.teamone.OneCustoms.preferences.CustomSeekBarPreference
-            android:key="network_traffic_autohide_threshold"
-            android:title="@string/network_traffic_autohide_threshold_title"
-            android:max="10"
-            settings:min="0"
-            android:defaultValue="0"
-            settings:units="KB/s"
-            android:dependency="network_traffic_state" />
-
     </PreferenceCategory>
+
 
     <com.teamone.OneCustoms.preferences.CustomSeekBarPreference
             android:key="qs_bottom_brightness"

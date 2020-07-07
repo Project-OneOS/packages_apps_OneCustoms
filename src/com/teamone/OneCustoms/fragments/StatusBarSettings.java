@@ -25,7 +25,6 @@ import android.text.TextUtils;
 import android.view.View;
 
 import com.android.settings.SettingsPreferenceFragment;
-import com.teamone.OneCustoms.preferences.CustomSeekBarPreference;
 import com.teamone.OneCustoms.preferences.SystemSettingSwitchPreference;
 import com.android.settings.Utils;
 import android.util.Log;
@@ -39,8 +38,8 @@ import java.util.Collections;
 public class StatusBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
-    private CustomSeekBarPreference mThreshold;
-    private SystemSettingSwitchPreference mNetMonitor;
+    private static final String NETWORK_TRAFFIC = "network_traffic_state";
+    private SystemSettingSwitchPreference mNetworkTraffic;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -49,10 +48,21 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.one_settings_statusbar);
 
         PreferenceScreen prefSet = getPreferenceScreen();
+
+        mNetworkTraffic = (SystemSettingMasterSwitchPreference) findPreference(NETWORK_TRAFFIC);
+        mNetworkTraffic.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.NETWORK_TRAFFIC_STATE, 0) == 1));
+        mNetworkTraffic.setOnPreferenceChangeListener(this);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+	if (preference == mNetworkTraffic) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.NETWORK_TRAFFIC_STATE, value ? 1 : 0);
+            return true;
+		}
         return false;
     }
 
